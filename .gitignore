@@ -1,0 +1,10 @@
+cache/
+artifacts/
+
+coverage*
+typechain/
+
+node_modules/
+.env
+
+deployments/
