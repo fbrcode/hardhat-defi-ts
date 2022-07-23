@@ -4,6 +4,9 @@
   "main": "index.js",
   "author": "fbrcode <fabio.bressler@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "hardhat run scripts/aaveBorrow.js"
+  },
   "devDependencies": {
     "@chainlink/contracts": "^0.4.1",
     "@nomiclabs/hardhat-ethers": "npm:hardhat-deploy-ethers",

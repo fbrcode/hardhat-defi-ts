@@ -62,3 +62,12 @@ Add openzeppelin contracts: `yarn add --dev @openzeppelin/contracts`
 ## Get price feed interface
 
 Add chainlink contracts: `yarn add --dev @chainlink/contracts`
+
+## Start & Run
+
+Just execute the following commands to install dependencies and run the sample script.
+
+```shell
+yarn
+yarn start
+```
