@@ -26,4 +26,4 @@ async function getWeth() {
 // Use mainnet fork to test it out
 // https://hardhat.org/hardhat-network/docs/guides/forking-other-networks
 
-module.exports = { getWeth };
+module.exports = { getWeth, AMOUNT };
