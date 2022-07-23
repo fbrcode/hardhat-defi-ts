@@ -20,7 +20,7 @@ async function getWeth() {
   const tx = await iWeth.deposit({ value: AMOUNT });
   await tx.wait(1);
   const wethBalance = await iWeth.balanceOf(deployer);
-  console.log(`WETH balance: ${ethers.utils.formatEther(wethBalance)} WETH`);
+  console.log(`WETH (Wrapped ETH) balance: ${ethers.utils.formatEther(wethBalance)} WETH`);
 }
 
 // Use mainnet fork to test it out
