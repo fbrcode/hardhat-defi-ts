@@ -58,3 +58,7 @@ After changing hardhat config to fork mainnet and add the RPC_URL_CONFIG, run:
 ## Add IERC20 from NPM
 
 Add openzeppelin contracts: `yarn add --dev @openzeppelin/contracts`
+
+## Get price feed interface
+
+Add chainlink contracts: `yarn add --dev @chainlink/contracts`
