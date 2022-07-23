@@ -34,3 +34,10 @@ What we want to do?
 1. **Deposit collateral** (ETH / WETH) and earn yield, meaning some percentage return just for depositing our funds as collateral.
 2. **Borrow another asset** (i.e. DAI, stable coin [1 DAI ~ 1 USD])
 3. **Repay the borrowed asset** (repay almost everything back)
+
+### AAVE
+
+The native currency ETH is not an ERC20 token, it is the native blockchain token.
+The protocol AAVE treats everything as ERC20 token, because it's much easier to deal with.
+
+**WETH (Wrapped ETH)**: It's basically Ethereum, but wrapped in and ERC20 token.
