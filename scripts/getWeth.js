@@ -20,7 +20,10 @@ async function getWeth() {
   const tx = await iWeth.deposit({ value: AMOUNT });
   await tx.wait(1);
   const wethBalance = await iWeth.balanceOf(deployer);
-  console.log(`WETH balance: ${wethBalance}`);
+  console.log(`WETH balance: ${ethers.utils.formatEther(wethBalance)} ETH`);
 }
+
+// Use mainnet fork to test it out
+// https://hardhat.org/hardhat-network/docs/guides/forking-other-networks
 
 module.exports = { getWeth };

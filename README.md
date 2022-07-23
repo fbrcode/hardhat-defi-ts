@@ -41,3 +41,16 @@ The native currency ETH is not an ERC20 token, it is the native blockchain token
 The protocol AAVE treats everything as ERC20 token, because it's much easier to deal with.
 
 **WETH (Wrapped ETH)**: It's basically Ethereum, but wrapped in and ERC20 token.
+
+## Mainnet fork for WETH test
+
+Fork mainnet: <https://hardhat.org/hardhat-network/docs/guides/forking-other-networks>
+
+Run a local hardhat node that pretend being a mainnet node.
+
+- **Pros**: Quick, easy, resemble what's on mainnet
+- **Cons**: We need an API, some contracts are complex to work with
+
+After changing hardhat config to fork mainnet and add the RPC_URL_CONFIG, run:
+
+`yarn hardhat run scripts/aaveBorrow.js`
