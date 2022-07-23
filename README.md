@@ -54,3 +54,7 @@ Run a local hardhat node that pretend being a mainnet node.
 After changing hardhat config to fork mainnet and add the RPC_URL_CONFIG, run:
 
 `yarn hardhat run scripts/aaveBorrow.js`
+
+## Add IERC20 from NPM
+
+Add openzeppelin contracts: `yarn add --dev @openzeppelin/contracts`
